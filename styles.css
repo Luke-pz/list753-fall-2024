@@ -34,8 +34,8 @@ body {
   }
 
   figure.main-image {
-    background: PaleVioletRed;
-    border-color: MediumVioletRed;
+    background: mediumpurple;
+    border-color: midnightblue;
     color: #ffffff;
     margin-bottom: 32px;
   }
