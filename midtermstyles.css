@@ -35,18 +35,69 @@ main {
     margin: 20px 0;
 }
 
-h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    color: #e60000;
+/* Friday Section */
+#friday {
+    background-color: #f49831; /* Matches the orange for Friday */
+    padding: 20px;
+    color: #fff;
 }
 
-ul {
+#friday h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#friday ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-li {
+#friday li {
+    margin-bottom: 10px;
+}
+
+/* Saturday Section */
+#saturday {
+    background-color: #e64545; /* Matches the red for Saturday */
+    padding: 20px;
+    color: #fff;
+}
+
+#saturday h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#saturday ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#saturday li {
+    margin-bottom: 10px;
+}
+
+/* Sunday Section */
+#sunday {
+    background-color: #ffcc00; /* Matches the yellow for Sunday */
+    padding: 20px;
+    color: #333;
+}
+
+#sunday h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#sunday ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#sunday li {
     margin-bottom: 10px;
 }
 
