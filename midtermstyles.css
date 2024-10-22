@@ -7,7 +7,6 @@
 /* Styling the body */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
@@ -35,79 +34,62 @@ main {
     margin: 20px 0;
 }
 
+/* Flexbox container for Friday and Saturday */
+#events {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#friday, #saturday {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
 /* Friday Section */
 #friday {
-    background-color: #f49831; /* Matches the orange for Friday */
-    padding: 20px;
+    background-color: #f49831; /* Orange color for Friday */
     color: #fff;
-}
-
-#friday h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-#friday ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#friday li {
-    margin-bottom: 10px;
 }
 
 /* Saturday Section */
 #saturday {
-    background-color: #e64545; /* Matches the red for Saturday */
-    padding: 20px;
+    background-color: #e64545; /* Red color for Saturday */
     color: #fff;
-}
-
-#saturday h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-#saturday ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#saturday li {
-    margin-bottom: 10px;
 }
 
 /* Sunday Section */
 #sunday {
-    background-color: #4400ff; /* Matches the yellow for Sunday */
+    background-color: #2a09e6; /* Yellow color for Sunday */
     padding: 20px;
-    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-#sunday h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    color: #333;
+/* Section for Location */
+#location {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-#sunday ul {
-    list-style-type: disc;
-    padding-left: 20px;
+/* Image Styling */
+.main-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
 
-#sunday li {
-    margin-bottom: 10px;
-}
-
-/* Section for Location and Thank You */
-#location, #thankyou {
-    margin-top: 20px;
-}
-
-#location p, #thankyou p {
-    margin-bottom: 10px;
+figure {
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Footer */
@@ -118,8 +100,4 @@ main {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
-}
-
-#footer p {
-    margin: 5px 0;
 }
