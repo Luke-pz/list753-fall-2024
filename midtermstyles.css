@@ -1,7 +1,7 @@
 /* Styling the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #131313;
     color: #333;
     padding: 20px;
 }
@@ -18,9 +18,9 @@ header h1 {
     font-weight: bold;
     display: inline-block;
     padding: 10px;
-    border: 5px solid #ffcc00; /* Yellow border */
+    border: 5px solid #ffffff; /* Yellow border */
     color: #000;
-    background-color: #ffcc00;
+    background-color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -72,7 +72,7 @@ main {
 
 /* Sunday Section */
 #sunday {
-    background-color: #ffcc00; /* Yellow color for Sunday */
+    background-color: #5b37df; /* Yellow color for Sunday */
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 10px;
