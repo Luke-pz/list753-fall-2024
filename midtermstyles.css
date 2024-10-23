@@ -73,6 +73,7 @@ main {
 /* Sunday Section */
 #sunday {
     background-color: #5b37df; /* Purple color for Sunday */
+    color: #fff; 
     padding: 20px;
     border: 2px solid #fff;
     border-radius: 10px;
