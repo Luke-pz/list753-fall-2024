@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>My "Hello, World!" page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <button onclick="darkMode()">Toggle dark mode</button>
+            <div id="message">Welcome to my site. <button onclick="document.getElementById('message').classList.add('dismissed')">Dismiss</button></div>
+            <h1 id="page-title">Hello, World!</h1>  
+            <img src="https://placekitten.com/200/300"/>
+            <p>
+              Egestas egestas fringilla phasellus faucibus scelerisque.     <strong>Dictum non consectetur a erat. Eget sit amet tellus cras adipiscing enim eu turpis</strong>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Commodo quis imperdiet massa tincidunt. Eu ultrices vitae auctor eu augue.
+          </p>
+          <p>
+            Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Et ultrices neque ornare aenean euismod. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Turpis egestas maecenas pharetra convallis posuere. Eget arcu dictum varius duis. Diam maecenas sed enim ut sem.  Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+          </p>
+        </div>
+        <script>
+            document.getElementById("page-title"). style.fontSize7 = "75px";
+            function darkMode() {
+                document.body.classList.toggle('dark-mode');
+            }
+        </script>
+    </body>
+</html>
