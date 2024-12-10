@@ -1,144 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Yoz’s portfolio website!">
-    <title>Yoz’s Portfolio</title>
-    <link href="finalexam.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <link rel="stylesheet" href="finalexams.css">
 </head>
 <body>
-    <header>
-        <h1>Yoz’s Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome!</h2>
-        <p>Hi, I’m Yoz! I’m an aspiring cybersecurity professional with a passion for informatics and technology. Explore my site to learn more about me, my projects, and how to get in touch.</p>
-        <img src="images/welcome-image.jpg" alt="Welcome banner with abstract tech design">
+  <header>
+    <div class="container">
+      <h1 id="site-title">Explore the World</h1>
+      <nav>
         <ul>
-            <li><strong>Education:</strong> Bachelor’s in Informatics</li>
-            <li><strong>Skills:</strong> HTML, CSS, project management, cybersecurity</li>
-            <li><strong>Interests:</strong> Piano, Overwatch, anime</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#travel-tips">Travel Tips</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </main>
-    <footer>
-        <p>&copy; 2024 Yoz’s Portfolio. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+      </nav>
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+  </header>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn more about Yoz!">
-    <title>About Me - Yoz’s Portfolio</title>
-    <link href="finalexam.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h1>Yoz’s Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>About Me</h2>
-        <p>Hi, I’m Yoz from Indiana! I’m a third-year informatics major with a minor in computer science. I’ve worked on various tech-related projects, including installing security systems and studying CRM/ERP software like Salesforce.</p>
-        <img src="images/about-me.jpg" alt="Yoz working on a project">
-        <p>In my free time, I enjoy:</p>
-        <ul>
-            <li>Playing piano</li>
-            <li>Watching anime</li>
-            <li>Playing Overwatch with friends</li>
-        </ul>
-    </main>
-    <footer>
-        <p>&copy; 2024 Yoz’s Portfolio. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+  <main>
+    <section id="home" class="container">
+      <figure class="main-image">
+        <img src="scenic-banner.jpg" alt="Scenic view of mountains and a lake">
+        <figcaption>Welcome to our travel blog - inspiring your next adventure!</figcaption>
+      </figure>
+      <p>Discover travel tips, destination highlights, and personal stories from our journey around the globe. Let us help you explore the world with confidence and excitement!</p>
+      <p>Check out <a href="https://www.lonelyplanet.com" target="_blank">Lonely Planet</a> for more inspiration!</p>
+    </section>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Yoz’s projects.">
-    <title>Projects - Yoz’s Portfolio</title>
-    <link href="finalexam.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h1>Yoz’s Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Projects</h2>
-        <section>
-            <h3>Website Development</h3>
-            <p>Developed accessible, responsive websites using HTML and CSS.</p>
-        </section>
-        <section>
-            <h3>Security Camera Installation</h3>
-            <p>Led the installation of wiring and LED fixtures for a warehouse security system.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Yoz’s Portfolio. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <section id="destinations" class="container">
+      <h1 id="article-title">Destinations</h1>
+      <figure class="section-image odd">
+        <img src="paris.jpg" alt="Eiffel Tower in Paris">
+        <figcaption>Paris - The city of lights and love!</figcaption>
+      </figure>
+      <figure class="section-image even">
+        <img src="bali.jpg" alt="Beach in Bali, Indonesia">
+        <figcaption>Bali - A tropical paradise waiting for you!</figcaption>
+      </figure>
+      <figure class="section-image odd">
+        <img src="kyoto.jpg" alt="Cherry blossoms in Kyoto, Japan">
+        <figcaption>Kyoto - A peaceful blend of tradition and beauty.</figcaption>
+      </figure>
+    </section>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Yoz.">
-    <title>Contact - Yoz’s Portfolio</title>
-    <link href="finalexam.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h1>Yoz’s Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:yoz@example.com">yoz@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yoz" target="_blank">linkedin.com/in/yoz</a></p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Yoz’s Portfolio. All rights reserved.</p>
-    </footer>
+    <section id="travel-tips" class="container">
+      <h1 id="article-title">Travel Tips</h1>
+      <p>1. Always pack light and bring essential items for any situation.</p>
+      <p>2. Research local customs and traditions to enhance your experience.</p>
+      <p>3. Use apps and guides to navigate unfamiliar cities with ease.</p>
+      <ul>
+        <li>Download offline maps for better navigation.</li>
+        <li>Invest in a good travel insurance policy.</li>
+        <li>Keep photocopies of your important documents.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="small-container">
+      <h1 id="article-title">Contact Us</h1>
+      <p>We'd love to hear about your travel stories or answer any questions. Fill out the form below to connect with us!</p>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="page-footer">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#travel-tips">Travel Tips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Add dark mode toggle functionality
+    const body = document.body;
+    const toggleDarkMode = () => {
+      body.classList.toggle('dark-mode');
+    };
+  </script>
 </body>
 </html>
