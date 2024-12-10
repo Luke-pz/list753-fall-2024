@@ -4,39 +4,53 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
+  background-color: #f4f9ff;
+  color: #333333;
 }
 
 .container {
   width: 96%;
   max-width: 1020px;
   margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #5c9ead;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .small-container {
   margin: 0 auto;
   width: 92%;
   max-width: 768px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #a6dcef;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1#site-title {
   font-size: 72px;
   letter-spacing: -3px;
   margin-top: 0;
-  margin-bottom: .125em;
+  margin-bottom: 0.5em;
   text-align: center;
-  color: midnightblue;
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h1#article-title {
   font-size: 48px;
-  color: mediumpurple;
+  color: #5c9ead;
+  border-bottom: 2px solid #5c9ead;
+  padding-bottom: 8px;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 1.25em;
   font-size: 16px;
-  color: #333333;
 }
 
 ul {
@@ -52,33 +66,29 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  border: 2px solid #5c9ead;
 }
 
 figure {
   margin: 0;
-  border: 1px solid black;
   padding: 12px;
-  padding-bottom: 24px;
-}
-
-figure img {
-  margin-bottom: 12px;
+  border-radius: 8px;
 }
 
 figure.main-image {
-  background: mediumpurple;
-  border-color: midnightblue;
+  background: #5c9ead;
   color: #ffffff;
-  margin-bottom: 32px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media all and (min-width: 768px) {
-  figure.section-image {
-      float: right;
-      margin-left: 20px;
-      margin-bottom: 32px;
-      max-width: 320px;
-  }
+figure.section-image {
+  margin-bottom: 32px;
+  padding: 8px;
+  border: 2px solid #a6dcef;
+  border-radius: 10px;
+  background-color: #e8f6ff;
 }
 
 figure.section-image.odd {
@@ -93,13 +103,13 @@ figure.section-image.even {
 
 nav ul {
   list-style: none;
-  padding-left: 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   gap: 30px;
-  border-top: 1px solid rgb(73, 7, 90);
-  border-bottom: 1px solid rgb(73, 7, 90);
-  margin-bottom: 20px;
+  border: 2px solid #5c9ead;
+  border-radius: 5px;
+  background-color: #e8f6ff;
 }
 
 nav ul li {
@@ -107,7 +117,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(73, 7, 90);
+  color: #2c3e50;
   text-decoration: none;
   padding: 12px;
   display: block;
@@ -115,48 +125,42 @@ nav ul li a {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-  border-bottom: 3px solid rgb(73, 7, 90);
-  padding-bottom: 9px;
+  background-color: #5c9ead;
+  color: #ffffff;
+  border-radius: 4px;
 }
 
 body.dark-mode {
-  background: #010101;
+  background: #1e272e;
   color: #ffffff;
 }
 
 body.dark-mode button {
   background-color: #ffffff;
-  color: #010101;
+  color: #1e272e;
 }
 
 #message {
-  background: #E9FFE4;
+  background: #e9ffe4;
   border: 1px solid #178201;
   padding: 20px 40px;
   margin: 12px 0;
   border-radius: 4px;
   opacity: 1;
-  transition: opacity .2s ease;
-}
-
-#message.dismissed {
-  opacity: 0;
-  height: 0;
-}
-
-#message button {
-  float: right;
+  transition: opacity 0.2s ease;
 }
 
 footer#page-footer {
   padding: 32px 0;
   margin-top: 64px;
   text-align: center;
-  background-color: #410329;
+  background-color: #2c3e50;
   color: #ffffff;
+  border-top: 4px solid #5c9ead;
 }
 
 footer nav ul li a {
