@@ -1,101 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Blog</title>
-  <link rel="stylesheet" href="finalexams.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A travel blog sharing tips, destination highlights, and personal travel experiences to inspire adventurers worldwide.">
+    <title>Adventure Awaits - Travel Blog</title>
+    <link rel="stylesheet" href="finalexams.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1 id="site-title">Explore the World</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#destinations">Destinations</a></li>
-          <li><a href="#travel-tips">Travel Tips</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    </div>
-  </header>
+    <header>
+        <h1 id="site-title">Adventure Awaits</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="travel-tips.html">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section id="home" class="container">
-      <figure class="main-image">
-        <img src="scenic-banner.jpg" alt="Scenic view of mountains and a lake">
-        <figcaption>Welcome to our travel blog - inspiring your next adventure!</figcaption>
-      </figure>
-      <p>Discover travel tips, destination highlights, and personal stories from our journey around the globe. Let us help you explore the world with confidence and excitement!</p>
-      <p>Check out <a href="https://www.lonelyplanet.com" target="_blank">Lonely Planet</a> for more inspiration!</p>
-    </section>
+    <main class="container">
+        <section>
+            <figure class="main-image">
+                <img src="images/scenic-banner.jpg" alt="A scenic view of mountains and a lake">
+                <figcaption>Explore the world one destination at a time.</figcaption>
+            </figure>
+            <p>Welcome to <strong>Adventure Awaits</strong>, your go-to travel blog for destination highlights, tips, and inspiration. Whether you're a seasoned traveler or planning your first trip, we aim to ignite your wanderlust with our curated content. Dive into our featured destinations, practical travel advice, and personal experiences to start planning your next adventure today!</p>
+        </section>
 
-    <section id="destinations" class="container">
-      <h1 id="article-title">Destinations</h1>
-      <figure class="section-image odd">
-        <img src="paris.jpg" alt="Eiffel Tower in Paris">
-        <figcaption>Paris - The city of lights and love!</figcaption>
-      </figure>
-      <figure class="section-image even">
-        <img src="bali.jpg" alt="Beach in Bali, Indonesia">
-        <figcaption>Bali - A tropical paradise waiting for you!</figcaption>
-      </figure>
-      <figure class="section-image odd">
-        <img src="kyoto.jpg" alt="Cherry blossoms in Kyoto, Japan">
-        <figcaption>Kyoto - A peaceful blend of tradition and beauty.</figcaption>
-      </figure>
-    </section>
+        <section>
+            <h2>Featured Destinations</h2>
+            <ul>
+                <li><strong>Paris, France</strong> - The City of Light with its iconic Eiffel Tower and charming streets.</li>
+                <li><strong>Kyoto, Japan</strong> - A tranquil escape with beautiful temples and traditional tea houses.</li>
+                <li><strong>Grand Canyon, USA</strong> - Experience breathtaking natural beauty like no other.</li>
+            </ul>
+        </section>
 
-    <section id="travel-tips" class="container">
-      <h1 id="article-title">Travel Tips</h1>
-      <p>1. Always pack light and bring essential items for any situation.</p>
-      <p>2. Research local customs and traditions to enhance your experience.</p>
-      <p>3. Use apps and guides to navigate unfamiliar cities with ease.</p>
-      <ul>
-        <li>Download offline maps for better navigation.</li>
-        <li>Invest in a good travel insurance policy.</li>
-        <li>Keep photocopies of your important documents.</li>
-      </ul>
-    </section>
+        <section>
+            <h2>Why Follow Us?</h2>
+            <p>Our blog is inspired by the many places we've traveled so far and those we dream of exploring. With a seamless design and inviting colors, our site is optimized for easy navigation on all devices, offering you a sense of adventure at your fingertips.</p>
+        </section>
 
-    <section id="contact" class="small-container">
-      <h1 id="article-title">Contact Us</h1>
-      <p>We'd love to hear about your travel stories or answer any questions. Fill out the form below to connect with us!</p>
-      <form action="#" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+    </main>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-  <footer id="page-footer">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#travel-tips">Travel Tips</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
-  </footer>
-
-  <script>
-    // Add dark mode toggle functionality
-    const body = document.body;
-    const toggleDarkMode = () => {
-      body.classList.toggle('dark-mode');
-    };
-  </script>
+    <footer id="page-footer">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="travel-tips.html">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Adventure Awaits. All rights reserved.</p>
+    </footer>
 </body>
 </html>
