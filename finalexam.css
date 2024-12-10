@@ -4,8 +4,8 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  background-color: #f4f9ff;
-  color: #333333;
+  background-color: #0c57b3;
+  color: #cf0d0d;
 }
 
 .container {
@@ -23,9 +23,9 @@ body {
   margin: 0 auto;
   width: 92%;
   max-width: 768px;
-  background-color: #ffffff;
+  background-color: #b80e0e;
   padding: 20px;
-  border: 2px solid #a6dcef;
+  border: 2px solid #0396cc;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -43,7 +43,7 @@ h1#site-title {
 h1#article-title {
   font-size: 48px;
   color: #5c9ead;
-  border-bottom: 2px solid #5c9ead;
+  border-bottom: 2px solid #118ba7;
   padding-bottom: 8px;
 }
 
@@ -77,18 +77,18 @@ figure {
 
 figure.main-image {
   background: #5c9ead;
-  color: #ffffff;
+  color: #ce0202;
   padding: 16px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(119, 48, 48, 0.2);
 }
 
 figure.section-image {
   margin-bottom: 32px;
   padding: 8px;
-  border: 2px solid #a6dcef;
+  border: 2px solid #116d8f;
   border-radius: 10px;
-  background-color: #e8f6ff;
+  background-color: #083e5f;
 }
 
 figure.section-image.odd {
@@ -109,7 +109,7 @@ nav ul {
   gap: 30px;
   border: 2px solid #5c9ead;
   border-radius: 5px;
-  background-color: #e8f6ff;
+  background-color: #0e4e75;
 }
 
 nav ul li {
@@ -136,16 +136,16 @@ nav ul li a:hover {
 
 body.dark-mode {
   background: #1e272e;
-  color: #ffffff;
+  color: #a71515;
 }
 
 body.dark-mode button {
-  background-color: #ffffff;
+  background-color: #ee7878;
   color: #1e272e;
 }
 
 #message {
-  background: #e9ffe4;
+  background: #59944b;
   border: 1px solid #178201;
   padding: 20px 40px;
   margin: 12px 0;
@@ -159,12 +159,12 @@ footer#page-footer {
   margin-top: 64px;
   text-align: center;
   background-color: #2c3e50;
-  color: #ffffff;
+  color: #520303;
   border-top: 4px solid #5c9ead;
 }
 
 footer nav ul li a {
-  color: #ffffff;
+  color: #af2323;
 }
 
 footer nav ul li a:hover {
