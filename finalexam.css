@@ -1,43 +1,168 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
-header h1 {
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
+
+h1#site-title {
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+  color: midnightblue;
+}
+
+h1#article-title {
+  font-size: 48px;
+  color: mediumpurple;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1.25em;
+  font-size: 16px;
+  color: #333333;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figure {
   margin: 0;
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+
+figure img {
+  margin-bottom: 12px;
+}
+
+figure.main-image {
+  background: mediumpurple;
+  border-color: midnightblue;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+@media all and (min-width: 768px) {
+  figure.section-image {
+      float: right;
+      margin-left: 20px;
+      margin-bottom: 32px;
+      max-width: 320px;
+  }
+}
+
+figure.section-image.odd {
+  float: right;
+  margin-left: 20px;
+}
+
+figure.section-image.even {
+  float: left;
+  margin-right: 20px;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-top: 1px solid rgb(73, 7, 90);
+  border-bottom: 1px solid rgb(73, 7, 90);
+  margin-bottom: 20px;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+  margin: 0;
 }
 
 nav ul li a {
-  color: #fff;
+  color: rgb(73, 7, 90);
   text-decoration: none;
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-main {
-  padding: 2rem;
+nav ul li a:hover {
+  border-bottom: 3px solid rgb(73, 7, 90);
+  padding-bottom: 9px;
 }
 
-footer {
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: #ffffff;
+  color: #010101;
+}
+
+#message {
+  background: #E9FFE4;
+  border: 1px solid #178201;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
+
+footer#page-footer {
+  padding: 32px 0;
+  margin-top: 64px;
   text-align: center;
-  padding: 1rem;
-  background-color: #f4f4f4;
-  margin-top: 20px;
+  background-color: #410329;
+  color: #ffffff;
+}
+
+footer nav ul li a {
+  color: #ffffff;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
 }
