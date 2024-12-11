@@ -57,8 +57,9 @@ footer p {
 }
 
 img {
-  max-width: 150%;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 15px;
+  width: 100%;         /* Makes the image fill the entire width of its container */
+  height: 100vh;       /* Makes the image fill the full height of the viewport */
+  object-fit: cover;   /* Ensures the image covers the space without distortion */
+  margin: 0;           /* Removes unnecessary margins */
+  border-radius: 0;    /* Removes the border radius if you want the image to fit perfectly */
 }
